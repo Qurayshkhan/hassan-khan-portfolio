@@ -24,18 +24,18 @@ const Header = () => {
                   </span>
                 </h1>
                 <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                  <Link
+                  <a
                     className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
-                    to="/resume"
+                    href="#resume-section"
                   >
                     Resume
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     className="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder"
-                    to="/projects"
+                    href="#project-section"
                   >
                     Projects
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
