@@ -1,10 +1,8 @@
 import React from "react";
-import Master from "../layouts/Master";
-import { Link } from "react-router-dom";
 
 const Resume = () => {
   return (
-    <Master>
+    <section id="resume-section">
       <div className="container px-5 my-5">
         <div className="text-center mb-5">
           <h1 className="display-5 fw-bolder mb-0">
@@ -247,7 +245,7 @@ const Resume = () => {
           </div>
         </div>
       </div>
-    </Master>
+    </section>
   );
 };
 

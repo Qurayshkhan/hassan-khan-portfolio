@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <header className="py-5">
+      <header className="py-5" id="home-section">
         <div className="container px-5 pb-5">
           <div className="row gx-5 align-items-center">
             <div className="col-xxl-5">
