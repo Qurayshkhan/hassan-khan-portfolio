@@ -1,6 +1,6 @@
 import React from "react";
 import Dot3 from "../../components/icons/Dot3";
-import Dot4 from "../../components/icons/dot4";
+import Dot4 from "../../components/icons/Dot4";
 import Dot2 from "../../components/icons/Dot2";
 import Dot1 from "../../components/icons/Dot1";
 import { Link } from "react-router-dom";
