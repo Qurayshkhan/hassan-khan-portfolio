@@ -25,7 +25,7 @@ const Contact = () => {
                     placeholder="Enter your name..."
                     data-sb-validations="required"
                   />
-                  <label htmlhtmlFor="name">Full name</label>
+                  <label htmlFor="name">Full name</label>
                   <div
                     className="invalid-feedback"
                     data-sb-feedback="name:required"
@@ -42,7 +42,7 @@ const Contact = () => {
                     placeholder="name@example.com"
                     data-sb-validations="required,email"
                   />
-                  <label htmlhtmlFor="email">Email address</label>
+                  <label htmlFor="email">Email address</label>
                   <div
                     className="invalid-feedback"
                     data-sb-feedback="email:required"
@@ -65,7 +65,7 @@ const Contact = () => {
                     placeholder="(123) 456-7890"
                     data-sb-validations="required"
                   />
-                  <label htmlhtmlFor="phone">Phone number</label>
+                  <label htmlFor="phone">Phone number</label>
                   <div
                     className="invalid-feedback"
                     data-sb-feedback="phone:required"
@@ -83,7 +83,7 @@ const Contact = () => {
                     style={{ height: "10rem" }}
                     data-sb-validations="required"
                   ></textarea>
-                  <label htmlhtmlFor="message">Message</label>
+                  <label htmlFor="message">Message</label>
                   <div
                     className="invalid-feedback"
                     data-sb-feedback="message:required"

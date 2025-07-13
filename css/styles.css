@@ -9439,6 +9439,16 @@ fieldset:disabled .btn {
     visibility: hidden !important;
 }
 
+.project-img {
+    height: 100%;
+    width: 100%;
+}
+
+.project-img img {
+    height: 100%;
+    width: 100%;
+}
+
 @media (min-width: 576px) {
     .float-sm-start {
         float: left !important;
@@ -13723,4 +13733,40 @@ html {
         width: 1.5vw;
         left: -2vw;
     }
+}
+
+@media screen and (max-width: 600px) {
+    #resume-section .px-5 {
+        padding: 1rem !important;
+        margin: 0 !important;
+    }
+
+    #education-section .px-5 {
+        padding: 1rem !important;
+        margin: 0 !important;
+    }
+
+    #skills-section .px-5 {
+        padding: 1rem !important;
+        margin: 0 !important;
+    }
+
+    #project-section .px-5 {
+        padding: 1rem !important;
+        margin: 0 !important;
+    }
+
+    .project-item {
+        flex-direction: column-reverse;
+
+    }
+
+    .experience-heading {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+.header-section {
+    padding-top: 5rem;
 }

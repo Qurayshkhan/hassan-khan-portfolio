@@ -7,13 +7,15 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <header className="py-5" id="home-section">
+      <header className="header-section" id="home-section">
         <div className="container px-5 pb-5">
           <div className="row gx-5 align-items-center">
             <div className="col-xxl-5">
               <div className="text-center text-xxl-start">
                 <div className="badge bg-gradient-primary-to-secondary text-white mb-4">
-                  <div className="text-uppercase">Web &middot; Development</div>
+                  <div className="text-uppercase">
+                    Full Stack Laravel Developer
+                  </div>
                 </div>
                 <div className="fs-3 fw-light text-muted">
                   I can help your business to
