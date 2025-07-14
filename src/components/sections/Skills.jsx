@@ -47,7 +47,7 @@ const Skills = () => {
                       </div>
                       <h3 className="fw-bolder mb-0">
                         <span className="text-gradient d-inline">
-                          Languages
+                          Stack Languages
                         </span>
                       </h3>
                     </div>
