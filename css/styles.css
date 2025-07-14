@@ -13757,6 +13757,11 @@ html {
         margin: 0 !important;
     }
 
+    #contact-section .px-5 {
+        padding: 1rem !important;
+        margin: 0 !important;
+    }
+
     .project-item {
         flex-direction: column-reverse;
 
@@ -13768,7 +13773,7 @@ html {
     }
 
     .text-small-screen {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
 }
 
