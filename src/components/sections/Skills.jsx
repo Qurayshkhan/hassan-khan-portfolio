@@ -1,5 +1,5 @@
 import React from "react";
-import { languages, skills } from "../../data/skills";
+import { languages, skills, tools } from "../../data/skills";
 
 const Skills = () => {
   return (
@@ -49,9 +49,35 @@ const Skills = () => {
                     <div className="row row-cols-1 row-cols-md-3 g-3 mb-4">
                       {languages &&
                         languages.map((item, index) => (
-                          <div className="col" key={index}>
-                            <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                              {item}
+                          <div key={index} className="col">
+                            <div className="bg-light rounded-4 h-100 p-3">
+                              <div>{item.name}</div>
+                              <div className="small text-muted">
+                                {item.description ?? "N/A"}
+                              </div>
+                            </div>
+                          </div>
+                        ))}
+                    </div>
+                  </div>
+                  <div className="mb-0">
+                    <div className="d-flex align-items-center mb-4">
+                      <div className="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
+                        <i className="bi bi-gear"></i>
+                      </div>
+                      <h3 className="fw-bolder mb-0">
+                        <span className="text-gradient d-inline">Tools</span>
+                      </h3>
+                    </div>
+                    <div className="row row-cols-1 row-cols-md-3 g-3 mb-4">
+                      {tools &&
+                        tools.map((item, index) => (
+                          <div key={index} className="col">
+                            <div className="bg-light rounded-4 h-100 p-3">
+                              <div>{item.name}</div>
+                              <div className="small text-muted">
+                                {item.description ?? "N/A"}
+                              </div>
                             </div>
                           </div>
                         ))}
