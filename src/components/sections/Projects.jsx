@@ -22,7 +22,13 @@ const Projects = () => {
                     <div className="card-body p-0">
                       <div className="row project-item">
                         <div className="col-md-6 p-5">
-                          <h2 className="fw-bolder">{item.name}</h2>
+                          <a
+                            href={item.link}
+                            className="text-decoration-none"
+                            target="__blank"
+                          >
+                            <h2 className="fw-bolder">{item.name}</h2>
+                          </a>
                           <p>{item.description}</p>
                         </div>
                         <div className="col-md-6">
