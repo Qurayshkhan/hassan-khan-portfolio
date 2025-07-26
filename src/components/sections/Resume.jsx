@@ -18,7 +18,7 @@ const Resume = () => {
 
                 <a
                   className="btn btn-primary px-4 py-3"
-                  href="/assets/resume/hassan_khan_resume.pdf"
+                  href="/assets/resume/hassan_khan_latest_resume_pdf_version.pdf"
                   download
                 >
                   <div className="d-inline-block bi bi-download me-2"></div>
